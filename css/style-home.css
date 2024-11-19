@@ -1,0 +1,351 @@
+/*general*/
+body{
+    font-family: "Orbitron", sans-serif;
+}
+header{
+    background-color: #F1F1F1;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/*header exclusive*/
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.menu nav ul{
+    display: flex;
+    gap: 40px;
+}
+.menu nav ul li a{
+    color: #9A9999;
+    text-decoration: none;
+    font-size: 12px;
+}
+.menu nav ul li a:hover{
+    color: #212121;
+}
+.menu ul li a.active{
+    color: #212121;
+}
+
+/*section exclusive*/
+.conteiner-form
+{
+    display: flex;
+    gap:45px;
+}
+.form{
+    padding:60px 0;
+}
+
+.ychoiceP{
+    margin-bottom: 50px;
+    font-size: 10px;
+}
+.carro{
+    width: 52vh;
+}
+.carro img{
+    width: 100%;
+    padding: 10px;
+}
+
+.formulario-carro{
+    width: 100%;
+}
+
+.modelsP{
+    justify-self: center;
+    font-size: 14px;
+}
+.confP{
+    margin-bottom: 25px;
+    font-size: 10px;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+    width: 100%;
+}
+.input label{
+    color: #9A9999;
+    font-size: 10px;
+}
+.input input{
+    background-color: #f0f0f0;
+    border:3px solid transparent;
+    height: 43px;
+    font-size: 15px;
+    width: 100%;
+}
+.input input:focus{
+    outline: none;
+    border-top: 3px solid #1e1e1e;
+}
+.input .primeiro-input{
+    border-top: 3px solid #1e1e1e;
+}
+.organizar{
+    display:flex;
+    gap:30px;
+    border-bottom: 2px solid #4c4c4c;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.organizar1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.organizar2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    gap: 20px;
+}
+
+.organizar-checkbox{
+    border-bottom: 2px solid #4c4c4c;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+.opciP{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+.seguP{
+    font-size: 10px;
+}
+.opcoes{
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+}
+.opcao p{
+    color: #9A9999;
+    font-size: 10px;
+}
+.opcionais{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.checkbox{
+    display: flex;
+    gap: 60px;
+}
+.check{
+    display: flex;
+    gap: 10px;
+}
+.check img{
+    width: 12px;
+    height: 12px;
+}
+.check p{
+    font-weight: 600;
+    font-size: 10px;
+}
+
+.organizar-preco{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.preco{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+}
+.nameP{
+    font-size: 10px;
+}
+.preco2{
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 12px;
+}
+.modelP{
+    font-weight: 450;
+}
+.realP{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.botoes{
+    margin-top: 35px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.botao1{
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.botao2{
+    background-color: #000;
+    border: 1px solid transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 110px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.botao1:hover{
+    background-color: #3E6AE1;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+.botao2:hover{
+    background-color: #3E6AE1;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+/*banner*/
+
+.full-banner{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.full-banner h2{
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 20px;
+}
+
+.product-details{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-primary{
+    background-color: #3E6AE1;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-secondary:hover{
+    background-color: #212121;
+    transition: all 0.3s;
+}
+
+.btn-secondary{
+    background-color: #ffffff;
+    border: none;
+    color: #828282;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+
+/*footer exclusive, à conferir*/
+footer{
+    padding: 60px 0;
+}
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.menu-footer ul{
+    display: flex;
+    gap: 40px;
+}
+.menu-footer ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-size: 10px;
+}
+.footer-block-text{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Inter;
+}
+.footer-block-text p{
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: all 0.2s;
+    display: none;
+}
+.mobile-menu:hover{
+    opacity: 0.85;
+    transition: all 0.2s;
+}
+.mobile-menu div{
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+}
